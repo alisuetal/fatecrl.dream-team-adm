@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dream_team_adm">
    <application
-        android:label="dream_team_adm"
+        android:label="Dream Team Backstage"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

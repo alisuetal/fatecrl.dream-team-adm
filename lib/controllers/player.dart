@@ -54,6 +54,7 @@ class PlayerController with ChangeNotifier {
     String match,
   ) async {
     const url = "${Constants.baseUrl}Player/Update";
+
     final response = await http.post(
       Uri.parse(url),
       body: {
@@ -69,6 +70,7 @@ class PlayerController with ChangeNotifier {
         'cd_rodada': match,
       },
     );
+    print(response.statusCode);
     if (response.statusCode == 204) {
       return true;
     }
