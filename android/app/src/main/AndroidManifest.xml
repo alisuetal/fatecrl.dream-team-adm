@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dream_team_adm">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="Dream Team Backstage"
         android:name="${applicationName}"
